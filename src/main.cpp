@@ -31,10 +31,10 @@ void setup(void) {
   Serial.begin(115200);
 
   // Initialize GPS module
-  initializeGps();
+  // initializeGps();
 
   // Try to load config
-  loadConfig(); // Config is loaded before drawing the splash screen to check if flipped 180º
+  //loadConfig(); // Config is loaded before drawing the splash screen to check if flipped 180º
 
   // Initialize graphic library
   initializeDisplay();
@@ -49,12 +49,13 @@ void setup(void) {
 }
 
 void loop(void) {
+  u8g2->setContrast(220);
   u8g2->clearBuffer();
   drawScreen(state.currentScreen);
   u8g2->sendBuffer();
 
   checkButtons();
-  pollGpsModule();
+  // pollGpsModule();
 
   // Tasks that occur every 1 second
   currentMillis = millis();
@@ -62,6 +63,6 @@ void loop(void) {
     previousMillis = currentMillis;
     updateGpsValues();
     // updateTemperature();
-    saveConfig(); // Save all to FRAM
+    //saveConfig(); // Save all to FRAM
   }
 }

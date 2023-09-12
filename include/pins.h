@@ -17,11 +17,11 @@
 
 #pragma once
 
-#define PIN_DISPLAY_CLOCK     13
-#define PIN_DISPLAY_DATA      12
+#define PIN_DISPLAY_CLOCK     12// 22//13
+#define PIN_DISPLAY_DATA      27//21//12
 #define PIN_DISPLAY_CS        14
-#define PIN_DISPLAY_DC        25
-#define PIN_DISPLAY_RESET     27
+#define PIN_DISPLAY_DC        2//25
+#define PIN_DISPLAY_RESET     35//27
 #define PIN_BUTTON_PREV       32
 #define PIN_BUTTON_SELECT     33
 #define PIN_BUTTON_NEXT       34

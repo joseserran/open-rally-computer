@@ -16,8 +16,10 @@
 
 
 #include <ota.h>
-#include <WiFi.h>
-#include <HTTPClient.h>
+// #include <WiFi.h>
+#include <ESP8266WiFi.h>
+// #include <HTTPClient.h>
+#include <ESP8266HTTPClient.h>
 #include <Update.h>
 #include <display.h>
 #include <memory.h>

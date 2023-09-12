@@ -30,11 +30,11 @@
 #include <memory.h>
 
 // Initialize display
-U8G2_UC1701_MINI12864_F_4W_SW_SPI* u8g2 = new U8G2_UC1701_MINI12864_F_4W_SW_SPI(U8G2_R0,
+U8G2_UC1701_MINI12864_F_4W_SW_SPI* u8g2 = new U8G2_UC1701_MINI12864_F_4W_SW_SPI(U8G2_R2,
   PIN_DISPLAY_CLOCK, PIN_DISPLAY_DATA, PIN_DISPLAY_CS, PIN_DISPLAY_DC, PIN_DISPLAY_RESET);
 
 void initializeDisplay() {
-  initDisplayRotation();
+  //initDisplayRotation();
   initBacklight();
 
   u8g2->begin(PIN_BUTTON_SELECT, PIN_BUTTON_PREV, PIN_BUTTON_NEXT);
