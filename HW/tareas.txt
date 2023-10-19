@@ -1,0 +1,15 @@
+1. Conseguir un proyecto Altium ya hecho, para copiar librerias con 3D (piratilllaaaa)
+2. Modificar librerias existentes y conseguir los 3D faltantes
+	2.1. variantes de los ESP32
+	2.2. variantes de las placas de alimentacion
+3. Busqueda rapida de ESP32/ESP8826 que es lo mas barato con pines suficiente y con modificaciones(sin memoria FRAM, con memoria SD, etcetc).
+4. Diseños/configuraciones admisibles por tamaño
+	4.1 Adicion de baterias?
+	4.2 adicion de sensor de dexconexion de alientación
+5. Ttamaño de GPSs existentes, precios y compatiiblidada
+6. Codigo portable
+	6.1 como generar codigo portable desde platformIO para difentes placas
+	6.2 programar RTOs desde platformIO?
+	6.3 modo depuración en placas ESP32, como?
+	6.4 defines que seleccionen memoria interna eeprom (como hacer?)
+7. Mecanica 3D imprimible
