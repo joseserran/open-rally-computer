@@ -1,4 +1,5 @@
-1. Conseguir un proyecto Altium ya hecho, para copiar librerias con 3D (piratilllaaaa)
+1. Conseguir un proyecto Altium ya hecho, para copiar librerias con 3D (piratilllaaaa).
+1.1 Hecho: modificar plantilla para correcto cajetin 
 2. Modificar librerias existentes y conseguir los 3D faltantes
 	2.1. variantes de los ESP32
 	2.2. variantes de las placas de alimentacion

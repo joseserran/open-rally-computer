@@ -97,48 +97,65 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=STKUWIVU
 
+[Document4]
+DocumentPath=Open_Rally_Computer.SCHLIB
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HNOBLHHD
+
 [Parameter1]
-Name=VerPAT
+Name=AcceptedBy1
 Value=
 
 [Parameter2]
-Name=VerAltium
+Name=ApprovedBy1
 Value=
 
 [Parameter3]
-Name=Update3
+Name=AuthorizedBy1
 Value=
 
 [Parameter4]
-Name=Update2
+Name=CheckedBy1
 Value=
 
 [Parameter5]
-Name=Title2
-Value=
+Name=Date1
+Value=19/10/23
 
 [Parameter6]
-Name=Title1
+Name=Date2
 Value=
 
 [Parameter7]
-Name=NextAssy
+Name=Date3
 Value=
 
 [Parameter8]
-Name=Issue3
+Name=DesignedBy1
 Value=
 
 [Parameter9]
-Name=Issue2
+Name=DesignedBy2
 Value=
 
 [Parameter10]
-Name=DrawnBy2
+Name=DocumentNameID
 Value=
 
 [Parameter11]
-Name=DrawnBy1
+Name=DocumentNumber
 Value=
 
 [Parameter12]
@@ -146,47 +163,47 @@ Name=DocumentType
 Value=
 
 [Parameter13]
-Name=DocumentNumber
+Name=DrawnBy1
 Value=
 
 [Parameter14]
-Name=DocumentNameID
+Name=DrawnBy2
 Value=
 
 [Parameter15]
-Name=DesignedBy2
+Name=Issue2
 Value=
 
 [Parameter16]
-Name=DesignedBy1
+Name=Issue3
 Value=
 
 [Parameter17]
-Name=Date3
+Name=NextAssy
 Value=
 
 [Parameter18]
-Name=Date2
+Name=Title1
 Value=
 
 [Parameter19]
-Name=Date1
-Value=19/10/23
+Name=Title2
+Value=
 
 [Parameter20]
-Name=CheckedBy1
+Name=Update2
 Value=
 
 [Parameter21]
-Name=AuthorizedBy1
+Name=Update3
 Value=
 
 [Parameter22]
-Name=ApprovedBy1
+Name=VerAltium
 Value=
 
 [Parameter23]
-Name=AcceptedBy1
+Name=VerPAT
 Value=
 
 [Configuration1]
@@ -795,46 +812,16 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Ansoft Neutral
-OutputName10=Ansoft Neutral (AutoPCB)
+OutputType10=MBAExportPARASOLID
+OutputName10=Export PARASOLID
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=HyperLynx
-OutputName11=HyperLynx (AutoPCB)
+OutputType11=MBAExportSTEP
+OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=MBAExportPARASOLID
-OutputName12=Export PARASOLID
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=MBAExportSTEP
-OutputName13=Export STEP
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
