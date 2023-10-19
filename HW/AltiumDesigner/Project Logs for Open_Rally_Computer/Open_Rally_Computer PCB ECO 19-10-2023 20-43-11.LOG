@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=NetC?_1 Pin=C?-1
+Removed Pin From Net: NetName=NetC?_2 Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=NetC?_1 Pin=C?-2
+Added Pin To Net: NetName=NetC?_2 Pin=C?-2
+Added Member To Class: ClassName=Open_Rally_Computer Member=Component C? 2.2uF
+Added Member To Class: ClassName=Open_Rally_Computer Member=Component C? 2.2uF
+Added Member To Class: ClassName=Open_Rally_Computer Member=Component C? CAP_CERAMIC_0805
+Added Member To Class: ClassName=Open_Rally_Computer Member=Component C? 0.33uF
+Added Member To Class: ClassName=Open_Rally_Computer Member=Component C? 10uF
+Added Member To Class: ClassName=Open_Rally_Computer Member=Component C? 0.1uF
