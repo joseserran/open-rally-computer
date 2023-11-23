@@ -12,7 +12,7 @@ SeparateFolders=0
 TemplateLocationPath=C:\Users\Public\Documents\Altium\AD21\Templates\
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=1
-AllowPortNetNames=0
+AllowPortNetNames=1
 AllowSheetEntryNetNames=0
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
@@ -22,7 +22,7 @@ DefaultPcbProtel=1
 DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
 NameNetsHierarchically=1
-PowerPortNamesTakePriority=0
+PowerPortNamesTakePriority=1
 AutoSheetNumbering=0
 AutoCrossReferences=0
 PushECOToAnnotationFile=1
@@ -87,7 +87,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -112,7 +112,24 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=HNOBLHHD
+DocumentUniqueId=PBQWFNZQ
+
+[Document5]
+DocumentPath=Open_Rally_Computer.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NDGOFXSB
 
 [Parameter1]
 Name=AcceptedBy1
@@ -1198,209 +1215,11 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=CAPGEMINI_COMPONENTS.SchLib
-ComponentDesignItemID0=450301014042
-ComponentSymbolReference0=450301014042
+ComponentLibraryIdentifier0=Open_Rally_Computer.SCHLIB
+ComponentDesignItemID0=ESP32_WROOM32
+ComponentSymbolReference0=ESP32_WROOM32
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=CAPGEMINI_COMPONENTS.SchLib
-ComponentDesignItemID1=CAP_CERAMIC_0805
-ComponentSymbolReference1=CAP_CERAMIC_0805
-ComponentUpdate1=0
-ComponentIsDeviceSheet1=0
-ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=CAPGEMINI_COMPONENTS.SchLib
-ComponentDesignItemID2=CAP_CERAMIC_1206
-ComponentSymbolReference2=CAP_CERAMIC_1206
-ComponentUpdate2=0
-ComponentIsDeviceSheet2=0
-ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=CAPGEMINI_COMPONENTS.SchLib
-ComponentDesignItemID3=CAP_CERAMIC_1812
-ComponentSymbolReference3=CAP_CERAMIC_1812
-ComponentUpdate3=1
-ComponentIsDeviceSheet3=0
-ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=CAPGEMINI_COMPONENTS.SchLib
-ComponentDesignItemID4=CAP_POL_ALUM_47uF/35V
-ComponentSymbolReference4=CAP_POL_ALUM_47uF/35V
-ComponentUpdate4=1
-ComponentIsDeviceSheet4=0
-ComponentLibIdentifierKind5=Library Name And Type
-ComponentLibraryIdentifier5=CAPGEMINI_COMPONENTS.SchLib
-ComponentDesignItemID5=CD4093BPW
-ComponentSymbolReference5=CD4093BPW
-ComponentUpdate5=1
-ComponentIsDeviceSheet5=0
-ComponentLibIdentifierKind6=Library Name And Type
-ComponentLibraryIdentifier6=CAPGEMINI_COMPONENTS.SchLib
-ComponentDesignItemID6=DEM09P_RA
-ComponentSymbolReference6=DEM09P_RA
-ComponentUpdate6=1
-ComponentIsDeviceSheet6=0
-ComponentLibIdentifierKind7=Library Name And Type
-ComponentLibraryIdentifier7=CAPGEMINI_COMPONENTS.SchLib
-ComponentDesignItemID7=DIODE ZENER
-ComponentSymbolReference7=DIODE ZENER
-ComponentUpdate7=1
-ComponentIsDeviceSheet7=0
-ComponentLibIdentifierKind8=Library Name And Type
-ComponentLibraryIdentifier8=CAPGEMINI_COMPONENTS.SchLib
-ComponentDesignItemID8=FDS3512
-ComponentSymbolReference8=FDS3512
-ComponentUpdate8=1
-ComponentIsDeviceSheet8=0
-ComponentLibIdentifierKind9=Library Name And Type
-ComponentLibraryIdentifier9=CAPGEMINI_COMPONENTS.SchLib
-ComponentDesignItemID9=FMMT493QTA
-ComponentSymbolReference9=FMMT493QTA
-ComponentUpdate9=0
-ComponentIsDeviceSheet9=0
-ComponentLibIdentifierKind10=Library Name And Type
-ComponentLibraryIdentifier10=CAPGEMINI_COMPONENTS.SchLib
-ComponentDesignItemID10=LED_SMD_GREEN_0805
-ComponentSymbolReference10=LED_SMD_GREEN_0805
-ComponentUpdate10=0
-ComponentIsDeviceSheet10=0
-ComponentLibIdentifierKind11=Library Name And Type
-ComponentLibraryIdentifier11=CAPGEMINI_COMPONENTS.SchLib
-ComponentDesignItemID11=LED_SMD_RED_0805
-ComponentSymbolReference11=LED_SMD_RED_0805
-ComponentUpdate11=0
-ComponentIsDeviceSheet11=0
-ComponentLibIdentifierKind12=Library Name And Type
-ComponentLibraryIdentifier12=CAPGEMINI_COMPONENTS.SchLib
-ComponentDesignItemID12=LTC4368
-ComponentSymbolReference12=LTC4368
-ComponentUpdate12=0
-ComponentIsDeviceSheet12=0
-ComponentLibIdentifierKind13=Library Name And Type
-ComponentLibraryIdentifier13=CAPGEMINI_COMPONENTS.SchLib
-ComponentDesignItemID13=RES_0805
-ComponentSymbolReference13=RES_0805
-ComponentUpdate13=0
-ComponentIsDeviceSheet13=0
-ComponentLibIdentifierKind14=Library Name And Type
-ComponentLibraryIdentifier14=CAPGEMINI_COMPONENTS.SchLib
-ComponentDesignItemID14=RES_1206
-ComponentSymbolReference14=RES_1206
-ComponentUpdate14=0
-ComponentIsDeviceSheet14=0
-ComponentLibIdentifierKind15=Library Name And Type
-ComponentLibraryIdentifier15=CAPGEMINI_COMPONENTS.SchLib
-ComponentDesignItemID15=SW 2x SPST Raised
-ComponentSymbolReference15=SW 2x SPST Raised
-ComponentUpdate15=1
-ComponentIsDeviceSheet15=0
-ComponentLibIdentifierKind16=Library Name And Type
-ComponentLibraryIdentifier16=CAPGEMINI_COMPONENTS.SchLib
-ComponentDesignItemID16=TEST_POINT_BLACK_LARGE
-ComponentSymbolReference16=TEST_POINT_BLACK_LARGE
-ComponentUpdate16=1
-ComponentIsDeviceSheet16=0
-ComponentLibIdentifierKind17=Library Name And Type
-ComponentLibraryIdentifier17=CAPGEMINI_COMPONENTS.SchLib
-ComponentDesignItemID17=TEST_POINT_RED_LARGE
-ComponentSymbolReference17=TEST_POINT_RED_LARGE
-ComponentUpdate17=1
-ComponentIsDeviceSheet17=0
-ComponentLibIdentifierKind18=Library Name And Type
-ComponentLibraryIdentifier18=CAPGEMINI_COMPONENTS.SchLib
-ComponentDesignItemID18=TEST_POINT_WHITE_LARGE
-ComponentSymbolReference18=TEST_POINT_WHITE_LARGE
-ComponentUpdate18=1
-ComponentIsDeviceSheet18=0
-ComponentLibIdentifierKind19=Library Name And Type
-ComponentLibraryIdentifier19=CAPGEMINI_COMPONENTS.SchLib
-ComponentDesignItemID19=XP1001000-05R
-ComponentSymbolReference19=XP1001000-05R
-ComponentUpdate19=1
-ComponentIsDeviceSheet19=0
-ComponentLibIdentifierKind20=Library Name And Type
-ComponentLibraryIdentifier20=ETH-I2C.SchLib
-ComponentDesignItemID20=BAT54H
-ComponentSymbolReference20=BAT54H
-ComponentUpdate20=1
-ComponentIsDeviceSheet20=0
-ComponentLibIdentifierKind21=Library Name And Type
-ComponentLibraryIdentifier21=ETH-I2C.SchLib
-ComponentDesignItemID21=CAP_POL_T491X106K050ATAUTO
-ComponentSymbolReference21=CAP_POL_T491X106K050ATAUTO
-ComponentUpdate21=1
-ComponentIsDeviceSheet21=0
-ComponentLibIdentifierKind22=Library Name And Type
-ComponentLibraryIdentifier22=ETH-I2C.SchLib
-ComponentDesignItemID22=LFSPXO026494Bulk
-ComponentSymbolReference22=LFSPXO026494Bulk
-ComponentUpdate22=1
-ComponentIsDeviceSheet22=0
-ComponentLibIdentifierKind23=Library Name And Type
-ComponentLibraryIdentifier23=ETH-I2C.SchLib
-ComponentDesignItemID23=LT1963AEQ#PBF
-ComponentSymbolReference23=LT1963AEQ#PBF
-ComponentUpdate23=1
-ComponentIsDeviceSheet23=0
-ComponentLibIdentifierKind24=Library Name And Type
-ComponentLibraryIdentifier24=ETH-I2C.SchLib
-ComponentDesignItemID24=MC14040B
-ComponentSymbolReference24=MC14040B
-ComponentUpdate24=1
-ComponentIsDeviceSheet24=0
-ComponentLibIdentifierKind25=Library Name And Type
-ComponentLibraryIdentifier25=ETH-I2C.SchLib
-ComponentDesignItemID25=MtHole+Screw
-ComponentSymbolReference25=MtHole+Screw
-ComponentUpdate25=1
-ComponentIsDeviceSheet25=0
-ComponentLibIdentifierKind26=Library Name And Type
-ComponentLibraryIdentifier26=ETH-I2C.SchLib
-ComponentDesignItemID26=SC18IM700
-ComponentSymbolReference26=SC18IM700
-ComponentUpdate26=1
-ComponentIsDeviceSheet26=0
-ComponentLibIdentifierKind27=Library Name And Type
-ComponentLibraryIdentifier27=ETH-I2C.SchLib
-ComponentDesignItemID27=SC18IM704
-ComponentSymbolReference27=SC18IM704
-ComponentUpdate27=1
-ComponentIsDeviceSheet27=0
-ComponentLibIdentifierKind28=Library Name And Type
-ComponentLibraryIdentifier28=ETH-I2C.SchLib
-ComponentDesignItemID28=SI4425FDY-T1-GE3
-ComponentSymbolReference28=SI4425FDY-T1-GE3
-ComponentUpdate28=1
-ComponentIsDeviceSheet28=0
-ComponentLibIdentifierKind29=Library Name And Type
-ComponentLibraryIdentifier29=ETH-I2C.SchLib
-ComponentDesignItemID29=SN74HC688
-ComponentSymbolReference29=SN74HC688
-ComponentUpdate29=1
-ComponentIsDeviceSheet29=0
-ComponentLibIdentifierKind30=Library Name And Type
-ComponentLibraryIdentifier30=ETH-I2C.SchLib
-ComponentDesignItemID30=TCA9539
-ComponentSymbolReference30=TCA9539
-ComponentUpdate30=1
-ComponentIsDeviceSheet30=0
-ComponentLibIdentifierKind31=Library Name And Type
-ComponentLibraryIdentifier31=ETH-I2C.SchLib
-ComponentDesignItemID31=TCK-120
-ComponentSymbolReference31=TCK-120
-ComponentUpdate31=1
-ComponentIsDeviceSheet31=0
-ComponentLibIdentifierKind32=Library Name And Type
-ComponentLibraryIdentifier32=ETH-I2C.SchLib
-ComponentDesignItemID32=TMR 6-2411WI
-ComponentSymbolReference32=TMR 6-2411WI
-ComponentUpdate32=1
-ComponentIsDeviceSheet32=0
-ComponentLibIdentifierKind33=Library Name And Type
-ComponentLibraryIdentifier33=GENERIC_COMPONENTS.SchLib
-ComponentDesignItemID33=DEM09S_RA
-ComponentSymbolReference33=DEM09S_RA
-ComponentUpdate33=0
-ComponentIsDeviceSheet33=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1432,147 +1251,21 @@ ParameterName7=08_Digi-Key Part Number
 ParameterUpdate7=1
 ParameterName8=09_helpURL
 ParameterUpdate8=1
-ParameterName9=15_Female Screw Lock
+ParameterName9=Comment
 ParameterUpdate9=1
-ParameterName10=16_Metal Brackets
+ParameterName10=Component Kind
 ParameterUpdate10=1
-ParameterName11=AssemblyType
+ParameterName11=Description
 ParameterUpdate11=1
-ParameterName12=Case
+ParameterName12=Library Reference
 ParameterUpdate12=1
-ParameterName13=Check Footprint
+ParameterName13=Value
 ParameterUpdate13=1
-ParameterName14=Check Symbol
-ParameterUpdate14=1
-ParameterName15=Comment
-ParameterUpdate15=1
-ParameterName16=Component Kind
-ParameterUpdate16=1
-ParameterName17=Description
-ParameterUpdate17=1
-ParameterName18=ESR
-ParameterUpdate18=1
-ParameterName19=Gender
-ParameterUpdate19=1
-ParameterName20=Library Reference
-ParameterUpdate20=1
-ParameterName21=Mounting Technology
-ParameterUpdate21=1
-ParameterName22=OnlineCost
-ParameterUpdate22=1
-ParameterName23=OnlinePurchase
-ParameterUpdate23=1
-ParameterName24=OnlineSupplier
-ParameterUpdate24=1
-ParameterName25=Operating Temperature
-ParameterUpdate25=1
-ParameterName26=Orientation
-ParameterUpdate26=1
-ParameterName27=Power
-ParameterUpdate27=1
-ParameterName28=Rated Current
-ParameterUpdate28=1
-ParameterName29=Tolerance
-ParameterUpdate29=1
-ParameterName30=Value
-ParameterUpdate30=1
-ParameterName31=Voltage
-ParameterUpdate31=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=450301014042
+ModelName0=ESP32_WROOM
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=ALU-f
-ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=C0805
-ModelUpdate2=1
-ModelType3=PCBLIB
-ModelName3=C1206
-ModelUpdate3=1
-ModelType4=PCBLIB
-ModelName4=C1812
-ModelUpdate4=1
-ModelType5=PCBLIB
-ModelName5=C2917_POL_(CASE_D,E)
-ModelUpdate5=1
-ModelType6=PCBLIB
-ModelName6=DEM09P_RA_THT
-ModelUpdate6=1
-ModelType7=PCBLIB
-ModelName7=DEM09S_RA_THT
-ModelUpdate7=1
-ModelType8=PCBLIB
-ModelName8=DS04-254-1-02BK-SMT
-ModelUpdate8=1
-ModelType9=PCBLIB
-ModelName9=LED_0805_GREEN
-ModelUpdate9=1
-ModelType10=PCBLIB
-ModelName10=LED_0805_RED
-ModelUpdate10=1
-ModelType11=PCBLIB
-ModelName11=LFSPXO026494Bulk
-ModelUpdate11=1
-ModelType12=PCBLIB
-ModelName12=R0805
-ModelUpdate12=1
-ModelType13=PCBLIB
-ModelName13=R1206
-ModelUpdate13=1
-ModelType14=PCBLIB
-ModelName14=Screw_M3*8
-ModelUpdate14=1
-ModelType15=PCBLIB
-ModelName15=SOD123_AK
-ModelUpdate15=1
-ModelType16=PCBLIB
-ModelName16=SOD323
-ModelUpdate16=1
-ModelType17=PCBLIB
-ModelName17=SOIC127P600X175-8N
-ModelUpdate17=1
-ModelType18=PCBLIB
-ModelName18=SOIC-8
-ModelUpdate18=1
-ModelType19=PCBLIB
-ModelName19=SOP50P490X110-10N
-ModelUpdate19=1
-ModelType20=PCBLIB
-ModelName20=SOT-23
-ModelUpdate20=1
-ModelType21=PCBLIB
-ModelName21=TCK-120
-ModelUpdate21=1
-ModelType22=PCBLIB
-ModelName22=TEST_POINT_BLACK-LARGE
-ModelUpdate22=1
-ModelType23=PCBLIB
-ModelName23=TEST_POINT_RED-LARGE
-ModelUpdate23=1
-ModelType24=PCBLIB
-ModelName24=TEST_POINT_WHITE-LARGE
-ModelUpdate24=1
-ModelType25=PCBLIB
-ModelName25=TMR2WIN-SINGLE_TRP
-ModelUpdate25=1
-ModelType26=PCBLIB
-ModelName26=TSSOP-14
-ModelUpdate26=1
-ModelType27=PCBLIB
-ModelName27=TSSOP-16N
-ModelUpdate27=1
-ModelType28=PCBLIB
-ModelName28=TSSOP20
-ModelUpdate28=1
-ModelType29=PCBLIB
-ModelName29=TSSOP24
-ModelUpdate29=1
-ModelType30=PCBLIB
-ModelName30=XP1001000-05R
-ModelUpdate30=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1772,16 +1465,35 @@ Net2=NetName=5V|NetColor=$006E6EFF
 Net3=NetName=5V_drain|NetColor=$006E6EFF
 Net4=NetName=5V_inter|NetColor=$006E6EFF
 Net5=NetName=5V_source|NetColor=$006E6EFF
-Net6=NetName=GND_ISO|NetColor=$00FF6E6E
-Net7=NetName=GND_RACK|NetColor=clYellow
-Net8=NetName=NetC1_2|NetColor=$00FF6EFF
-Net9=NetName=NetC15_2|NetColor=$006E6EFF
-Net10=NetName=NetC16_1|NetColor=$006EFF6E
-Net11=NetName=NetC16_2|NetColor=$006EFF6E
-Net12=NetName=NetC17_2|NetColor=$006EFF6E
-Net13=NetName=NetC2_2|NetColor=$00FF6EFF
-Net14=NetName=NetQ2_1|NetColor=$006E6EFF
-Net15=NetName=NetR9_1|NetColor=$006E6EFF
+Net6=NetName=DISPLAY_BL|NetColor=$00FFFF6E
+Net7=NetName=DISPLAY_CD|NetColor=$00FFFF6E
+Net8=NetName=DISPLAY_CS|NetColor=$00FFFF6E
+Net9=NetName=DISPLAY_DATA|NetColor=$00FFFF6E
+Net10=NetName=DISPLAY_RST|NetColor=$00FFFF6E
+Net11=NetName=DISPLAY_SCLK|NetColor=$00FFFF6E
+Net12=NetName=FLASH_DTR|NetColor=$00FF6EFF
+Net13=NetName=FLASH_RTS|NetColor=$00FF6EFF
+Net14=NetName=FLASH_RX|NetColor=$00FF6EFF
+Net15=NetName=FLASH_TX|NetColor=$00FF6EFF
+Net16=NetName=GND|NetColor=clYellow
+Net17=NetName=GND_ISO|NetColor=$00FF6E6E
+Net18=NetName=GND_RACK|NetColor=clYellow
+Net19=NetName=GPS_RX|NetColor=$00FF6EFF
+Net20=NetName=GPS_TX|NetColor=$00FF6EFF
+Net21=NetName=MEM_SCL|NetColor=$00FF6EFF
+Net22=NetName=MEM_SDA|NetColor=$00FF6EFF
+Net23=NetName=NetC1_2|NetColor=$00FF6EFF
+Net24=NetName=NetC15_2|NetColor=$006E6EFF
+Net25=NetName=NetC16_1|NetColor=$006EFF6E
+Net26=NetName=NetC16_2|NetColor=$006EFF6E
+Net27=NetName=NetC17_2|NetColor=$006EFF6E
+Net28=NetName=NetC2_2|NetColor=$00FF6EFF
+Net29=NetName=NetQ2_1|NetColor=$006E6EFF
+Net30=NetName=NetR9_1|NetColor=$006E6EFF
+Net31=NetName=R_NEXT|NetColor=$00FF6E6E
+Net32=NetName=R_PREV|NetColor=$00FF6E6E
+Net33=NetName=R_SELECT|NetColor=$00FF6E6E
+Net34=NetName=TEMP|NetColor=$00FF6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
